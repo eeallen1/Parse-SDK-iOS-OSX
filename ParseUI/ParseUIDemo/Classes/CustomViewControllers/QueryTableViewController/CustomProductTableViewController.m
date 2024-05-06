@@ -21,8 +21,7 @@
 
 #import "CustomProductTableViewController.h"
 
-#import <Parse/PFObject.h>
-#import <Parse/PFPurchase.h>
+@import ParseCore;
 
 @implementation CustomProductTableViewController
 

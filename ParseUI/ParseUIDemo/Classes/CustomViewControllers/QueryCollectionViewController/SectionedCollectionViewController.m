@@ -20,11 +20,9 @@
  */
 
 #import "SectionedCollectionViewController.h"
+#import "PFCollectionViewCell.h"
 
-#import <Parse/PFObject.h>
-#import <Parse/PFQuery.h>
-
-#import <ParseUI/PFCollectionViewCell.h>
+@import ParseCore;
 
 #pragma mark -
 #pragma mark SimpleCollectionReusableView

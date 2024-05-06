@@ -20,10 +20,9 @@
  */
 
 #import "SubtitleImageTableViewController.h"
+#import "PFTableViewCell.h"
 
-#import <Parse/PFObject.h>
-
-#import <ParseUI/PFTableViewCell.h>
+@import ParseCore;
 
 @implementation SubtitleImageTableViewController
 

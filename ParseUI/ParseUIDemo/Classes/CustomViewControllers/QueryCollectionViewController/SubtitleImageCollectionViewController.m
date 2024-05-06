@@ -20,11 +20,10 @@
  */
 
 #import "SubtitleImageCollectionViewController.h"
+#import "PFCollectionViewCell.h"
+#import "PFImageView.h"
 
-#import <Parse/PFQuery.h>
-
-#import <ParseUI/PFCollectionViewCell.h>
-#import <ParseUI/PFImageView.h>
+@import ParseCore;
 
 @implementation SubtitleImageCollectionViewController
 

@@ -8,8 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import "PFAppleUtils.h"
-#import "Parse/PFUser.h"
-#import "PFLoginViewController.h"
+@import ParseCore;
 
 @import OCMock;
 

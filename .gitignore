@@ -2,6 +2,7 @@
 .DS_Store
 
 ## Build generated
+.build/
 build/
 DerivedData
 OCMock.framework
@@ -36,5 +37,15 @@ docs/
 
 ## AppCode
 .idea/
-ParseFacebookUtils/Vendor
 ParseUI/Vendor
+
+# VSC
+.project
+
+# Node
+node_modules/
+npm-debug.log
+
+# Ruby
+.bundle
+Vendor/

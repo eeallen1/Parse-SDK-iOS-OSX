@@ -20,10 +20,9 @@
  */
 
 #import "SimpleCollectionViewController.h"
+#import "PFCollectionViewCell.h"
 
-#import <Parse/PFQuery.h>
-
-#import <ParseUI/PFCollectionViewCell.h>
+@import ParseCore;
 
 @implementation SimpleCollectionViewController
 

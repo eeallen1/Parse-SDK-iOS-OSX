@@ -21,9 +21,13 @@
 
 #import "DeletionTableViewController.h"
 
+#if __has_include(<Bolts/BFTask.h>)
 #import <Bolts/BFTask.h>
+#else
+#import "BFTask.h"
+#endif
 
-#import <Parse/PFObject.h>
+@import ParseCore;
 
 @interface DeletionTableViewController() <UIAlertViewDelegate>
 

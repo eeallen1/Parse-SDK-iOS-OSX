@@ -20,11 +20,9 @@
  */
 
 #import "PaginatedTableViewController.h"
+#import "PFTableViewCell.h"
 
-#import <Parse/PFObject.h>
-#import <Parse/PFQuery.h>
-
-#import <ParseUI/PFTableViewCell.h>
+@import ParseCore;
 
 @implementation PaginatedTableViewController
 
